@@ -1,40 +1,69 @@
+<div align="center">
+  <h1 style="color: #4da3ff; font-size: 3.5rem;"> LogiSeq</h1>
+  <p><strong>Descubra o próximo número em qualquer sequência lógica usando algoritmos matemáticos</strong></p>
+  <a href="https://logiseq.vercel.app">
+    <img src="https://img.shields.io/badge/Acesse%20a%20aplica%C3%A7%C3%A3o-LogiSeq-4da3ff?style=for-the-badge&logo=vercel&logoColor=white" alt="Acesse o LogiSeq">
+  </a>
+  <br/><br/>
+  <img src=".github/cap.png" alt="Demonstração da aplicação" width="80%">
+</div>
 
-<h1 style='color: #4da3ff; text-align: center; font-size: 3.5rem'>LogiSeq</h1>
+---
 
+## 🚀 Sobre o projeto
 
+**LogiSeq** é uma aplicação web que identifica padrões em sequências numéricas e prevê o próximo número utilizando o método de diferenças sucessivas.
 
-Este projeto é uma aplicação web que calcula o próximo número em uma sequência numérica, utilizando um algoritmo de diferenças.
+---
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
-- Insira uma sequência de números separados por vírgula
-- O algoritmo calcula automaticamente o próximo número na sequência
-- Suporte para tema claro e escuro (detecta automaticamente a preferência do sistema)
-- Interface responsiva e amigável
+- ✅ Inserção de sequência numérica (separada por vírgulas)
+- 🔁 Cálculo automático do próximo número
+- 🌗 Tema claro/escuro (baseado na preferência do sistema)
+- 📱 Interface responsiva e intuitiva
 
-## Como funciona
+---
 
-O algoritmo utiliza o método das diferenças sucessivas para identificar padrões na sequência numérica:
+## 🧠 Como funciona
 
-1. Calcula as diferenças entre números consecutivos
-2. Continua calculando diferenças entre as diferenças até encontrar uma sequência constante
-3. Usa essas diferenças para extrapolar o próximo valor na sequência original
+O algoritmo baseia-se em **diferenças sucessivas**:
 
-## Tecnologias utilizadas
+1. Calcula as diferenças entre os números consecutivos.
+2. Continua o processo até que as diferenças se tornem constantes.
+3. Usa esse padrão para prever o próximo número da sequência original.
 
-- Next.js
-- React
-- TypeScript
-- CSS Modules
+> Exemplo:  
+> Entrada: `2, 4, 8, 14, 22`  
+> Saída: `32`
 
-## Demonstração
+---
 
-![Demonstração da aplicação](.github/cap.png) 
+## 🛠️ Tecnologias utilizadas
 
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS Modules](https://github.com/css-modules/css-modules)
+---
 
-## Acesse a aplicação
+## 🧪 Teste agora
 
-[![Clique aqui para acessar a aplicação](https://img.shields.io/badge/Acesse%20a%20aplicação-LogiSeq-4da3ff?style=for-the-badge&logo=vercel&logoColor=white)](https://logiseq.vercel.app)
-## Licença
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Acesse a aplicação:
+
+👉 [https://logiseq.vercel.app](https://logiseq.vercel.app)
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.  
+Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+<div align="center">
+  <strong>Feito com 💙 por <a href="https://github.com/joaomjbraga">João Marcos Braga</a></strong>
+</div>
