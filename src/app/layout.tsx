@@ -1,22 +1,26 @@
-import './globals.css'
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
-  title: 'LogiSeq',
-  description: 'Aplicação para identificação de padrões em sequências numéricas',
+  title: "LogiSeq",
+  description: "LogiSeq",
   icons: {
-    icon: '/icon.png',
+    icon: "/icon.png",
   }
-}
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
-    <html lang="pt-BR">
-      <body>{children}</body>
+    <html lang="pt-br">
+      <body className="bg-zinc-900">
+  
+        {children}
+  
+      </body>
     </html>
-  )
+  );
 }
